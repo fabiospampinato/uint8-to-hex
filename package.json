@@ -2,16 +2,9 @@
   "name": "uint8-to-hex",
   "description": "The fastest function to convert a Uint8Array to hexadecimal.",
   "version": "1.0.0",
-  "main": "dist/node.js",
-  "types": "dist/node.d.ts",
-  "exports": {
-    "node": "./dist/node.js",
-    "default": "./dist/browser.js"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "benchmark:node": "node tasks/benchmark_node.js",
-    "benchmark:browser": "node tasks/benchmark_browser.js",
-    "benchmark": "npm run benchmark:node && npm run benchmark:browser",
     "clean": "rimraf dist",
     "compile": "tsc --skipLibCheck && tstei",
     "compile:watch": "tsc --skipLibCheck --watch",
@@ -40,13 +33,14 @@
     "conversion",
     "convert"
   ],
+  "dependencies": {
+    "hex-encoding": "^1.0.0"
+  },
   "devDependencies": {
-    "@types/node": "^17.0.16",
-    "benchloop": "^1.3.2",
-    "fast-check": "^2.21.0",
-    "fava": "^0.0.4",
+    "fast-check": "^2.23.2",
+    "fava": "^0.0.5",
     "rimraf": "^3.0.2",
-    "typescript": "^4.5.5",
+    "typescript": "^4.6.2",
     "typescript-transform-export-interop": "^1.0.4"
   }
 }
