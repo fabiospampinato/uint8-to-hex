@@ -2,7 +2,7 @@
   "name": "uint8-to-hex",
   "repository": "github:fabiospampinato/uint8-to-hex",
   "description": "The fastest function to convert a Uint8Array to hexadecimal.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
