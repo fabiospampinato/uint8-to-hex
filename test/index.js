@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-const fc = require ( 'fast-check' );
-const {describe} = require ( 'fava' );
-const {default: toHex} = require ( '../dist' );
-const Fixtures = require ( './fixtures' );
+import fc from 'fast-check';
+import {describe} from 'fava';
+import toHex from '../dist/index.js';
+import Fixtures from './fixtures.js';
 
 /* MAIN */
 
