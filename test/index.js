@@ -3,6 +3,7 @@
 
 import fc from 'fast-check';
 import {describe} from 'fava';
+import {Buffer} from 'node:buffer';
 import toHex from '../dist/index.js';
 import Fixtures from './fixtures.js';
 
