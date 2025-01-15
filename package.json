@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/uint8-to-hex",
   "description": "The fastest function to convert a Uint8Array to hexadecimal.",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
